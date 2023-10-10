@@ -1,0 +1,6 @@
+.contentWrapper {
+    display: flex;
+    flex-flow: column;
+    place-items: center center;
+    
+}
