@@ -1,0 +1,34 @@
+body, html {
+    background-color: indigo;
+    transition: all 0.4s ease-in-out;
+    animation: fadeIn 0.4s ease-in forwards;
+    animation-iteration-count: 1;
+    overflow: hidden;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    place-items: center center;
+    text-align: center;
+
+    width: 100%;
+    height: 100%;
+
+}
+
+h1 {
+    font-size: 64px;
+    color: white;
+    text-transform: uppercase;
+}
