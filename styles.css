@@ -3,7 +3,10 @@ body, html {
     transition: all 0.4s ease-in-out;
     animation: fadeIn 0.4s ease-in forwards;
     animation-iteration-count: 1;
-    overflow: hidden;
+    
+}
+h1 {
+    color: brown;
 }
 
 @keyframes fadeIn {
