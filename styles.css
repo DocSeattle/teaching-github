@@ -1,5 +1,5 @@
 body, html {
-    background-color: indigo;
+    background-color: rgb(52, 145, 66);
     transition: all 0.4s ease-in-out;
     animation: fadeIn 0.4s ease-in forwards;
     animation-iteration-count: 1;
